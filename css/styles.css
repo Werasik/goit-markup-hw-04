@@ -140,7 +140,6 @@ header {
     background-image: linear-gradient(90deg, rgba(46, 47, 66, 0.7) 100%, rgba(46, 47, 66, 0.7) 100%), url(/images/people-office.jpg);
     background-size: 1440px 603px;
     background-position: center;
-    background-repeat: no-repeat;
 }
 
 .main-title {
@@ -265,7 +264,7 @@ header {
 
 .icon-list-section-four {
     display: flex;
-    padding-top: 12px;
+    margin-top: 12px;
 }
 
 .icon-section-four {
@@ -277,7 +276,6 @@ header {
 
 .icon-item-section-four:not(:last-child) {
     margin-right: 24px;
-    ;
 }
 
 .section-four-item {
@@ -285,11 +283,9 @@ header {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
-
 .section-four-item:not(:last-child) {
     margin-right: 24px;
 }
-
 .full-name {
     font-weight: 600;
     font-size: 20px;
@@ -339,9 +335,12 @@ footer {
     background-color: var(--navy-blue);
     padding: 100px 0;
 }
-
+.container-footer{
+    display: flex;
+}
 .footer-box {
     width: 264px;
+    margin-right: 120px;
 }
 
 .logo-footer {
@@ -360,7 +359,21 @@ footer {
     color: var(--cornflower);
     margin-top: 16px;
 }
-
+.icon-list-footer{
+    display: flex;
+    margin-top: 16px;
+}
+.p-footer-icons{
+    font-weight: 600;
+    line-height: 1.5;
+    color: #ffffff;
+}
+.icon-footer{
+width: 40px;
+}
+.icon-item-footer:not(:last-child){
+margin-right: 16px;
+}
 /* portfolio */
 .section-portfolio {
     padding-top: 96px;
