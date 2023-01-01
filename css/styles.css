@@ -299,12 +299,13 @@ header {
     display: flex;
 }
 .icon-item-section-five{
+    width: 168px;
     padding: 16px 32px;
     border: 1px solid var(--light-slate);
     border-radius: 4px;
 }
 .icon-item-section-five:not(:last-child){
-margin-right: 24px;
+    margin-right: 24px;
 }
 .icon-section-five{
     width: 104px;
