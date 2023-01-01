@@ -57,12 +57,7 @@ li {
 div>.section-title {
     text-align: center;
 }
-svg{
-    content: '';
-    width: 64px;
-    height: 64px;
-    fill: black;
-}
+
 /* header */
 header {
     background: #FFFFFF;
@@ -185,12 +180,15 @@ header {
 }
 
 /* section2 */
-.section-two-icons-list{
-    display: flex;
+.icon-item-section-two{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+    background-color: var(--cloud);
 }
-.section-two-icons-block{
-    width: 264px;
-    height: 112px;
+.icon-section-two{
+    width: 64px;
+    height: 64px;
 }
 .section-two {
     padding: 120px 0;
@@ -218,6 +216,7 @@ header {
     line-height: 1.2;
     color: var(--navy-blue);
     margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 /* section3 */
@@ -258,7 +257,18 @@ header {
 .section-four-list {
     display: flex;
 }
+.icon-list-section-four{
+    display: flex;
+    padding-top: 12px;
+}
 
+.icon-section-four {
+    width: 40px;
+    height: 40px;
+}
+.icon-item-section-four:not(:last-child){
+    margin-right: 24px;;
+}
 .section-four-item {
     background-color: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -279,6 +289,11 @@ header {
 
 .img-section-four {
     display: block;
+}
+
+/* section5 */
+.section-five{
+    padding: 120px 0;
 }
 
 /* footer */
