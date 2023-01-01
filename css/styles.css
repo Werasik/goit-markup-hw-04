@@ -370,6 +370,12 @@ footer {
 }
 .icon-footer{
 width: 40px;
+height: 40px;
+fill: rgba(255, 255, 255, 0.1);
+cursor: pointer;
+}
+.icon-footer:hover{
+fill: rgba(49, 208, 170, 1);
 }
 .icon-item-footer:not(:last-child){
 margin-right: 16px;
