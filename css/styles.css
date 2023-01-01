@@ -295,7 +295,21 @@ header {
 .section-five{
     padding: 120px 0;
 }
-
+.icon-list-section-five{
+    display: flex;
+}
+.icon-item-section-five{
+    padding: 16px 32px;
+    border: 1px solid var(--light-slate);
+    border-radius: 4px;
+}
+.icon-item-section-five:not(:last-child){
+margin-right: 24px;
+}
+.icon-section-five{
+    width: 104px;
+    height: 56px;
+}
 /* footer */
 footer {
     background-color: var(--navy-blue);
