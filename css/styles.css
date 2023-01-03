@@ -58,6 +58,10 @@ div>.section-title {
     text-align: center;
 }
 
+.icons-social-media:hover,
+.icons-social-media:focus{
+fill: var(--green);
+}
 /* header */
 header {
     background: #FFFFFF;
@@ -271,8 +275,6 @@ header {
 .icon-section-four {
     width: 40px;
     height: 40px;
-    fill: var(--iris);
-    cursor: pointer;
 }
 
 .icon-item-section-four:not(:last-child) {
@@ -298,7 +300,9 @@ header {
 .img-section-four {
     display: block;
 }
-
+.icon-item-section-four a{
+    fill: var(--iris);
+}
 /* section5 */
 .section-five {
     padding: 120px 0;
@@ -306,10 +310,6 @@ header {
 
 .icon-list-section-five {
     display: flex;
-}
-
-.icon-item-section-five{
- 
 }
 
 .icon-link-section-five{
@@ -376,17 +376,18 @@ footer {
     color: #ffffff;
 }
 .icon-footer{
-width: 40px;
-height: 40px;
-fill: rgba(255, 255, 255, 0.1);
-cursor: pointer;
+    width: 40px;
+    height: 40px;
 }
-.icon-footer:hover{
-fill: rgba(49, 208, 170, 1);
+.icon-item-footer a{
+    fill:rgba(255, 255, 255, 0.1);
+
 }
+
 .icon-item-footer:not(:last-child){
 margin-right: 16px;
 }
+
 /* portfolio */
 .section-portfolio {
     padding-top: 96px;
